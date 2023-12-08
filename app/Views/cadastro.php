@@ -27,7 +27,9 @@
                   <input type="password" id="typePasswordX" placeholder="Crie uma senha" class="form-control form-control-lg" style="background-color: #C3B091;" />
                 </div>
 
-                <button class="btn btn-outline-light btn-lg px-5" type="submit">Criar Conta</button>
+                <a href="/login">
+                <button class="btn btn-outline-light btn-lg px-5"  type="submit">Criar Conta</button>
+                </a>
 
               </div>
           </div>

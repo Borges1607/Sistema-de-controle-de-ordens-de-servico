@@ -7,7 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/home', 'Home::index', ['as' => 'home']);
 $routes->get('/login', 'Login::index', ['as' => 'login']);
-$routes->post('/login', 'Login::store', ['as' => 'login.store']);
+//$routes->post('/login', 'Login::store', ['as' => 'login.store']);
 
 $routes->get('/cadastro', 'Login::Cadastro', ['as' => 'cadastro']);
 

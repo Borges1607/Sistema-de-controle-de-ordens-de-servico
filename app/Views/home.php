@@ -16,12 +16,16 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h3 class="card-title">Cadastro de Veiculos</h3>
-                                <button class="btn btn-outline-light btn-lg px-5">
-                                    <i class="fas fa-car-front"></i> Cadastrar
-                                </button>
-                                <button class="btn btn-outline-light btn-lg px-5">
-                                    <i class="fas fa-list"></i> Ver Lista
-                                </button>
+                                <a href="/cadVeiculo">
+                                    <button class="btn btn-outline-light btn-lg px-5" >
+                                        <i class="fas fa-car-front"></i> Cadastrar
+                                    </button>
+                                </a>
+                                <a href="/listVeiculos">
+                                    <button class="btn btn-outline-light btn-lg px-5" >
+                                        <i class="fas fa-list"></i> Ver Lista
+                                    </button>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -41,12 +45,16 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h3 class="card-title">Cadastro de serviços</h3>
-                                <button class="btn btn-outline-light btn-lg px-5">
-                                    <i class="fas fa-tools"></i> Cadastrar
-                                </button>
-                                <button class="btn btn-outline-light btn-lg px-5">
-                                    <i class="fas fa-list"></i> Ver Lista
-                                </button>
+                                <a href="/cadServico">
+                                    <button class="btn btn-outline-light btn-lg px-5" >
+                                        <i class="fas fa-car-front"></i> Cadastrar
+                                    </button>
+                                </a>
+                                <a href="/listSrvicos">
+                                    <button class="btn btn-outline-light btn-lg px-5" >
+                                        <i class="fas fa-list"></i> Ver Lista
+                                    </button>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -65,12 +73,16 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h3 class="card-title">Cadastro de mecanicos</h3>
-                                <button class="btn btn-outline-light btn-lg px-5">
-                                    <i class="fas fa-person-fill-add"></i> Cadastrar
-                                </button>
-                                <button class="btn btn-outline-light btn-lg px-5">
-                                    <i class="fas fa-list"></i> Ver Lista
-                                </button>
+                                <a href="/cadMecanico">
+                                    <button class="btn btn-outline-light btn-lg px-5" >
+                                        <i class="fas fa-car-front"></i> Cadastrar
+                                    </button>
+                                </a>
+                                <a href="/listMecanicos">
+                                    <button class="btn btn-outline-light btn-lg px-5" >
+                                        <i class="fas fa-list"></i> Ver Lista
+                                    </button>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -113,5 +125,6 @@
 button {
     background-color: #C3B091;
     border: none; 
+    text-decoration: none;
 }
 </style>

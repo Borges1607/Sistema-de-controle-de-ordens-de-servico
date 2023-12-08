@@ -9,8 +9,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom:25px;">
         <div class="container-md">
-            <a class="navbar-brand" href="#">PedrinhoConcertos</a>
-            <a class="navbar-brand" href="#">home</a>
+            <a class="navbar-brand" >PedrinhoConcertos</a>
+            <a class="navbar-brand" href="/home">home</a>
         </div>
     </nav>
 </body>

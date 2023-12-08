@@ -77,7 +77,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-light btn-lg px-5 mt-3" type="submit">Cadastrar</button>
+                                <a href="/listVeiculos">
+                                    <button class="btn btn-outline-light btn-lg px-5"  type="submit">Cadastrar</button>
+                                </a>
                             </div>
                         </div>
                     </div>
