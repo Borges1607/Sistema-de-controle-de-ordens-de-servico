@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PedrinhoConcertos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Cadastro</title>
 </head>
 <body>
 <body style="background-color: #C3B091;">
@@ -25,16 +26,6 @@
               <div class="form-outline form-white mb-4">
                 <label class="form-label"  for="typePasswordX">Senha</label>
                 <input type="password" id="typePasswordX" placeholder="Crie uma senha" class="form-control form-control-lg" style="background-color: #C3B091;" />
-              </div>
-
-              <div class="form-outline form-white mb-4">
-                <label class="form-label"  for="nome">Nome</label>
-                <input type="text" id="nome" placeholder="Informe nome" class="form-control form-control-lg" style="background-color: #C3B091;" />
-              </div>
-
-              <div class="form-outline form-white mb-4">
-                <label class="form-label"  for="telefone">Telefone</label>
-                <input type="text" id="telefone" placeholder="Informe número de contato" class="form-control form-control-lg" style="background-color: #C3B091;" />
               </div>
 
               <button class="btn btn-outline-light btn-lg px-5" type="submit">Criar Conta</button>

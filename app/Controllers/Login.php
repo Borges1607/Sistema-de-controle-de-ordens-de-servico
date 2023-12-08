@@ -10,6 +10,11 @@ class Login extends BaseController
     public function index()
     {
         return view('login');
+        if ($this->db->dbConnect()) {
+            echo "Conexão bem-sucedida!";
+        } else {
+            echo "Falha na conexão com o banco de dados.";
+        }
     }
 
     public function store()
@@ -33,15 +38,15 @@ class Login extends BaseController
         }
 
         $userModel = new User();
-    $user = $userModel->where('email', $this->request->getPost('email'))->first();
+        $user = $userModel->where('email', $this->request->getPost('email'))->first();
 
-    if ($user && password_verify($this->request->getPost('password'), $user->password)) {
-        //login correto
-        return redirect()->to('dashboard');
-    } else {
-        //falha login
-        return redirect()->route('login')->with('error', 'Credenciais inválidas');
-    }
+        if ($user && password_verify($this->request->getPost('password'), $user->password)) {
+            //login correto
+            return redirect()->to('home');
+        } else {
+            //falha login
+            return redirect()->route('login')->with('error', 'Credenciais inválidas');
+        }
     }
 
     public function Cadastro()

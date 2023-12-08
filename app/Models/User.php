@@ -8,7 +8,7 @@ class User extends Model
 {
     protected $table = 'Usuario'; 
     protected $primaryKey = 'idUsuario'; 
-    protected $allowedFields = ['nome', 'email', 'telefone'];
+    protected $allowedFields = ['senha', 'email'];
     protected $useAutoIncrement = true;
     protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
